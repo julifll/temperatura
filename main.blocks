@@ -1,7 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="t.=uyh71O)8?ClNB~at]" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="0/w;[igfLdxv*XuQ]iz_"><field name="LEDS">`
-        . # . # . 
-        # # # # # 
-        # # # # # 
-        . # # # . 
-        . . # . .
-        `</field></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="t.=uyh71O)8?ClNB~at]" x="0" y="0"><statement name="HANDLER"><block type="device_show_number" id="D*S@U6MYp:;4Sl}|$nnw"><value name="number"><shadow type="math_number" id="(QxKC4~M6k?n|Srw#UQl"><field name="NUM">0</field></shadow><block type="device_temperature" id="W(;i_H[E%J!Y_elw9a5o"></block></value><next><block type="device_while" id="|FMCB$UsQ*#(`atYV7d="><value name="COND"><shadow type="logic_boolean" id="~_zPQws#S)dA}dns7j[S"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="/.n}xaBRVX,1PX0v#y3|"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="mtUGS5z;Mg,X0cHV~-fJ"><field name="NUM">0</field></shadow><block type="device_temperature" id="x2Yx4^wrjfEAY0KVZ*wq"></block></value><value name="B"><shadow type="math_number" id="]bl*,#EbLDX;L2KD=CIi"><field name="NUM">20</field></shadow></value></block></value><statement name="DO"><block type="basic_show_icon" id="LOmA4^,uWbpXTOWG-|E|"><field name="i">IconNames.Happy</field></block></statement></block></next></block></statement></block></xml>
